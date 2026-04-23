@@ -1,0 +1,72 @@
+生成模块与提示词工程第一部分：
+
+1 完成上下文组装器
+	
+	定义文档块数据类
+	@dataclass
+	class DocumentChunk:
+    		text: str
+    		metadata: Dict[str, Any]
+    		relevance_score: float
+    		source: str
+    		chunk_id: str
+
+	定义上下文组装器
+	class ContextAssembler：
+		#加载tokenizer
+		#估算文本token数量
+		#组装上下文
+			转换文档格式（DocumentChunk）
+			计算文本相似性并去重（可使用Jaccard相似性判断）
+			按照相关性排序
+			优先选择高相关性文档，并考虑多样化（如果已经有太多来自同一来源的文档，降低优先级）
+			构建上下文字符串并减产长度限制（确保在完整段落处截断，如在后10%文本中找到句号）
+			补充元数据：
+        		context_metadata = {
+            			"total_chunks_retrieved": len(retrieved_docs),
+            			"unique_chunks_after_dedup": len(unique_chunks),
+            			"chunks_selected": len(selected_chunks),
+            			"estimated_tokens": self.estimate_tokens(final_context),
+            			"chunk_sources": self._analyze_sources(selected_chunks)
+        		}	
+		返回结果：
+		return {
+            		"context_text": final_context,
+            		"metadata": context_metadata,
+            		"selected_chunks": selected_chunks
+        		}
+
+2 完成医学提示工程模板
+	@dataclass
+	class PromptStage:
+    		name: str
+    		system_prompt: str
+    		user_prompt_template: str
+    		temperature: float
+    		max_tokens: int
+
+
+	可参考的提示词结构：
+		"evidence_evaluator": PromptStage(
+                	name="证据评估器",
+			...
+			temperature
+			max_tokens
+		),
+		"answer_generator": PromptStage(
+                	name="答案生成器",
+			....
+			temperature
+			max_tokens
+		),
+		"critical_reviewer": PromptStage(
+                	name="批判性审查器",
+			....
+			temperature
+			max_tokens
+		),
+		"final_assembler": PromptStage(
+                	name="最终组装器",
+			....
+			temperature
+			max_tokens
