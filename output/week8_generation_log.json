@@ -1,0 +1,697 @@
+[
+  {
+    "query": "Effect of metformin on CVD after 2020",
+    "answer": "The provided evidence does not directly address the effect of metformin on cardiovascular disease (CVD) outcomes after 2020. One study suggests metformin may reduce cognitive impairment and cerebral small vessel disease burden in type 2 diabetes patients, but this is not cardiovascular-specific. Another study compares metformin use in type 2 diabetes and chronic obstructive pulmonary disease populations, but it does not focus on CVD. The evidence is limited to specific subgroups and indirect for CVD, so no direct conclusions can be drawn about metformin's impact on CVD risk or outcomes.\n\nReferences: sha1:d76d43bff0874b45_000_2594652, PMID:34776938\n\nDisclaimer: This answer is for study and reference only and should not replace professional medical advice.",
+    "context_metadata": {
+      "total_chunks_retrieved": 3,
+      "converted_chunks": 3,
+      "unique_chunks_after_dedup": 3,
+      "deduplicated_away": 0,
+      "chunks_selected": 2,
+      "estimated_tokens": 289,
+      "chunk_sources": {
+        "vector": 2
+      },
+      "max_context_tokens": 420,
+      "effective_context_budget": 300,
+      "generation_prompt_safety_margin": 120,
+      "generation_chunk_token_limit": 120,
+      "min_context_tokens": 120,
+      "selected_chunk_ids": [
+        "sha1:d76d43bff0874b45_000_2594652",
+        "pmid:34776938_000_2091256"
+      ],
+      "selected_titles_preview": [
+        "Cardiovascular outcomes of metformin use in patients with type 2 diabetes and chronic obstructive pulmonary disease",
+        "Long-Term Use of Metformin Is Associated With Reduced Risk of Cognitive Impairment With Alleviation of Cerebral Small Vessel Disease Burden in Patients With Type 2 Diabetes"
+      ],
+      "original_selected_token_sum": 1025,
+      "generation_selected_token_sum": 233,
+      "truncated_chunk_count_for_generation": 3,
+      "truncated_chunk_ids_for_generation": [
+        "sha1:d76d43bff0874b45_000_2594652",
+        "pmid:34776938_000_2091256",
+        "pmid:40208362_001_4193602"
+      ],
+      "chunks_selected_after_filter": 2,
+      "estimated_tokens_after_filter": 289,
+      "chunk_sources_after_filter": {
+        "vector": 2
+      },
+      "selected_chunk_ids_after_filter": [
+        "sha1:d76d43bff0874b45_000_2594652",
+        "pmid:34776938_000_2091256"
+      ],
+      "filter_details": {
+        "filter_mode": "evidence_summary_text_only_no_chunk_filtering",
+        "kept_chunk_ids": [
+          "sha1:d76d43bff0874b45_000_2594652",
+          "pmid:34776938_000_2091256"
+        ]
+      }
+    },
+    "generation_metrics": {
+      "total_time_seconds": 202.55282020568848,
+      "stage_times": {
+        "context_assembly": 0.013404369354248047,
+        "evidence_evaluation": 63.68071985244751,
+        "draft_generation": 138.84274077415466,
+        "critical_review": 0.0,
+        "final_assembly": 2.384185791015625e-06,
+        "post_processing": 2.7179718017578125e-05
+      },
+      "token_counts": {
+        "context_tokens_initial": 289,
+        "evidence_context_tokens": 220,
+        "context_tokens_filtered": 289,
+        "draft_answer_tokens": 119,
+        "final_answer_tokens": 172
+      },
+      "stage_success": {
+        "context_assembly": true,
+        "evidence_evaluation": true,
+        "draft_generation": true,
+        "critical_review": false,
+        "final_assembly": true,
+        "post_processing": true
+      },
+      "answer_length_chars": 764,
+      "answer_length_words": 109,
+      "review_passed": false,
+      "final_assembly_mode": "draft_direct_plain_text"
+    },
+    "intermediate_results": {
+      "evidence_evaluation": {
+        "text_summary": "Long-term use of metformin is associated with reduced risk of cognitive impairment and alleviation of cerebral small vessel disease burden in patients with type 2 diabetes.",
+        "error": "",
+        "mode": "plain_text_summary"
+      },
+      "evidence_summary": "Long-term use of metformin is associated with reduced risk of cognitive impairment and alleviation of cerebral small vessel disease burden in patients with type 2 diabetes.",
+      "evidence_context": "[ chunk id : sha1 : d76d43bff0874b45 _ 000 _ 2594652 ] [ source : vector ] cardiovascular outcomes of metformin use in patients with type 2 diabetes and chronic obstructive pulmonary disease aim : to know whether metformin use has different influence on cardiovascular risks in patients with type 2 diabetes mellitus ( t2dm ) and chronic obstructive pulmonary disease ( copd ) as compared with metformin no - use. methods : this study employed a retrospective cohort study design. using propensity score matching, we recruited 55, 224 pairs of metformin users and nonusers from taiwan ’ s national health insurance research database between 1 january 2000, [ chunk id : pmid : 34776938 _ 000 _ 2091256 ] [ source : vector ] long - term use of metformin is associated with reduced risk of cognitive impairment with alleviation of cerebral small vessel disease burden in patients with type 2 diabetes objective : type 2 diabetes ( t2d ) is a",
+      "filtered_context": "[Chunk ID: sha1:d76d43bff0874b45_000_2594652] [Source: vector]\ncardiovascular outcomes of metformin use in patients with type 2 diabetes and chronic obstructive pulmonary disease aim : to know whether metformin use has different influence on cardiovascular risks in patients with type 2 diabetes mellitus ( t2dm ) and chronic obstructive pulmonary disease ( copd ) as compared with metformin no - use. methods : this study employed a retrospective cohort study design. using propensity score matching, we recruited 55, 224 pairs of metformin users and nonusers from taiwan ’ s national health insurance research database between 1 january 2000,\n\n[Chunk ID: pmid:34776938_000_2091256] [Source: vector]\nlong - term use of metformin is associated with reduced risk of cognitive impairment with alleviation of cerebral small vessel disease burden in patients with type 2 diabetes objective : type 2 diabetes ( t2d ) is a risk factor for cognitive impairment and cerebral small vessel disease ( csvd ). the relation of metformin use and cognitive impairment or csvd is not clear. the objective of this study was to investigate the cross - sectional effects of long - term use of metformin on total csvd burden and cognitive function in patients with t2d.",
+      "draft_answer": {
+        "draft_answer": "The provided evidence does not directly address the effect of metformin on cardiovascular disease (CVD) outcomes after 2020. One study suggests metformin may reduce cognitive impairment and cerebral small vessel disease burden in type 2 diabetes patients, but this is not cardiovascular-specific. Another study compares metformin use in type 2 diabetes and chronic obstructive pulmonary disease populations, but it does not focus on CVD. The evidence is limited to specific subgroups and indirect for CVD, so no direct conclusions can be drawn about metformin's impact on CVD risk or outcomes.",
+        "error": ""
+      },
+      "review_feedback": {
+        "skipped": true,
+        "reason": "critical review temporarily disabled"
+      },
+      "final_json": {
+        "final_answer": "The provided evidence does not directly address the effect of metformin on cardiovascular disease (CVD) outcomes after 2020. One study suggests metformin may reduce cognitive impairment and cerebral small vessel disease burden in type 2 diabetes patients, but this is not cardiovascular-specific. Another study compares metformin use in type 2 diabetes and chronic obstructive pulmonary disease populations, but it does not focus on CVD. The evidence is limited to specific subgroups and indirect for CVD, so no direct conclusions can be drawn about metformin's impact on CVD risk or outcomes.\n\nReferences: sha1:d76d43bff0874b45_000_2594652, PMID:34776938\n\nDisclaimer: This answer is for study and reference only and should not replace professional medical advice.",
+        "mode": "draft_direct_plain_text"
+      }
+    },
+    "sources": [
+      {
+        "chunk_id": "sha1:d76d43bff0874b45_000_2594652",
+        "source": "vector",
+        "pmid": null,
+        "journal": "Frontiers in Pharmacology",
+        "pub_year": 2022,
+        "title_line": "Cardiovascular outcomes of metformin use in patients with type 2 diabetes and chronic obstructive pulmonary disease"
+      },
+      {
+        "chunk_id": "pmid:34776938_000_2091256",
+        "source": "vector",
+        "pmid": "34776938",
+        "journal": "Frontiers in Aging Neuroscience",
+        "pub_year": 2021,
+        "title_line": "Long-Term Use of Metformin Is Associated With Reduced Risk of Cognitive Impairment With Alleviation of Cerebral Small Vessel Disease Burden in Patients With Type 2 Diabetes"
+      }
+    ],
+    "timestamp": "2026-04-20 16:52:01",
+    "answer_evaluation": {
+      "text_similarity": {
+        "rouge1": {
+          "precision": 0.1807,
+          "recall": 0.4286,
+          "fmeasure": 0.2542
+        },
+        "backend": "token_overlap_fallback"
+      },
+      "key_information": {
+        "generated_matches": {
+          "percentage": [],
+          "dosage": [],
+          "time_range": [
+            "after 2020"
+          ],
+          "safety": [
+            "risk"
+          ],
+          "treatment": [],
+          "mechanism": []
+        },
+        "reference_matches": {
+          "percentage": [],
+          "dosage": [],
+          "time_range": [
+            "after 2020"
+          ],
+          "safety": [],
+          "treatment": [
+            "treatment"
+          ],
+          "mechanism": []
+        },
+        "recall_by_type": {
+          "percentage": {
+            "ground_truth_count": 0,
+            "predicted_count": 0,
+            "overlap_count": 0,
+            "recall": 0.0,
+            "overlap_items": []
+          },
+          "dosage": {
+            "ground_truth_count": 0,
+            "predicted_count": 0,
+            "overlap_count": 0,
+            "recall": 0.0,
+            "overlap_items": []
+          },
+          "time_range": {
+            "ground_truth_count": 1,
+            "predicted_count": 1,
+            "overlap_count": 1,
+            "recall": 1.0,
+            "overlap_items": [
+              "after 2020"
+            ]
+          },
+          "safety": {
+            "ground_truth_count": 0,
+            "predicted_count": 1,
+            "overlap_count": 0,
+            "recall": 0.0,
+            "overlap_items": []
+          },
+          "treatment": {
+            "ground_truth_count": 1,
+            "predicted_count": 0,
+            "overlap_count": 0,
+            "recall": 0.0,
+            "overlap_items": []
+          },
+          "mechanism": {
+            "ground_truth_count": 0,
+            "predicted_count": 0,
+            "overlap_count": 0,
+            "recall": 0.0,
+            "overlap_items": []
+          }
+        },
+        "overall_recall": 0.5
+      },
+      "hallucination": {
+        "signal_details": {
+          "research_indicates_without_citation": {
+            "count": 0,
+            "matches": []
+          },
+          "proven_without_qualification": {
+            "count": 0,
+            "matches": []
+          },
+          "hundred_percent": {
+            "count": 0,
+            "matches": []
+          },
+          "absolute_safety_or_effectiveness": {
+            "count": 0,
+            "matches": []
+          }
+        },
+        "total_risk_signals": 0,
+        "hallucination_risk_score": 0.0,
+        "hallucination_safety_score": 1.0
+      },
+      "readability": {
+        "sentence_count": 5,
+        "word_count": 114,
+        "average_sentence_length": 22.8,
+        "average_word_length": 5.62
+      }
+    }
+  },
+  {
+    "query": "Recent evidence on aspirin for primary prevention after 2020",
+    "answer": "Recent evidence suggests that aspirin may have a neutral or unfavorable risk-benefit balance for primary prevention of cardiovascular events. This finding is based on studies in specific populations, such as those in Denmark, and should not be generalized. The evidence indicates no significant benefit and highlights bleeding risks, but it is limited to certain settings. Aspirin's role in primary prevention remains uncertain, and aspirin-free strategies are being explored.\n\nReferences: PMID:34824680, PMID:34193948\n\nDisclaimer: This answer is for study and reference only and should not replace professional medical advice.",
+    "context_metadata": {
+      "total_chunks_retrieved": 3,
+      "converted_chunks": 3,
+      "unique_chunks_after_dedup": 3,
+      "deduplicated_away": 0,
+      "chunks_selected": 2,
+      "estimated_tokens": 280,
+      "chunk_sources": {
+        "vector": 2
+      },
+      "max_context_tokens": 420,
+      "effective_context_budget": 300,
+      "generation_prompt_safety_margin": 120,
+      "generation_chunk_token_limit": 120,
+      "min_context_tokens": 120,
+      "selected_chunk_ids": [
+        "pmid:34824680_000_2091138",
+        "pmid:34193948_000_1891357"
+      ],
+      "selected_titles_preview": [
+        "Aspirin in the Modern Era of Cardiovascular Disease Prevention",
+        "Low-dose aspirin for primary and secondary prevention of cardiovascular events in Denmark 1998–2018"
+      ],
+      "original_selected_token_sum": 653,
+      "generation_selected_token_sum": 235,
+      "truncated_chunk_count_for_generation": 2,
+      "truncated_chunk_ids_for_generation": [
+        "pmid:34824680_000_2091138",
+        "pmid:34193948_000_1891357"
+      ],
+      "chunks_selected_after_filter": 2,
+      "estimated_tokens_after_filter": 280,
+      "chunk_sources_after_filter": {
+        "vector": 2
+      },
+      "selected_chunk_ids_after_filter": [
+        "pmid:34824680_000_2091138",
+        "pmid:34193948_000_1891357"
+      ],
+      "filter_details": {
+        "filter_mode": "evidence_summary_text_only_no_chunk_filtering",
+        "kept_chunk_ids": [
+          "pmid:34824680_000_2091138",
+          "pmid:34193948_000_1891357"
+        ]
+      }
+    },
+    "generation_metrics": {
+      "total_time_seconds": 191.05559968948364,
+      "stage_times": {
+        "context_assembly": 0.010498046875,
+        "evidence_evaluation": 63.708911180496216,
+        "draft_generation": 127.32321524620056,
+        "critical_review": 0.0,
+        "final_assembly": 1.1920928955078125e-06,
+        "post_processing": 1.3589859008789062e-05
+      },
+      "token_counts": {
+        "context_tokens_initial": 280,
+        "evidence_context_tokens": 209,
+        "context_tokens_filtered": 280,
+        "draft_answer_tokens": 91,
+        "final_answer_tokens": 127
+      },
+      "stage_success": {
+        "context_assembly": true,
+        "evidence_evaluation": true,
+        "draft_generation": true,
+        "critical_review": false,
+        "final_assembly": true,
+        "post_processing": true
+      },
+      "answer_length_chars": 627,
+      "answer_length_words": 87,
+      "review_passed": false,
+      "final_assembly_mode": "draft_direct_plain_text"
+    },
+    "intermediate_results": {
+      "evidence_evaluation": {
+        "text_summary": "Recent evidence suggests that aspirin may have a neutral or unfavorable risk-benefit balance for primary prevention of cardiovascular events.",
+        "error": "",
+        "mode": "plain_text_summary"
+      },
+      "evidence_summary": "Recent evidence suggests that aspirin may have a neutral or unfavorable risk-benefit balance for primary prevention of cardiovascular events.",
+      "evidence_context": "[ chunk id : pmid : 34824680 _ 000 _ 2091138 ] [ source : vector ] aspirin in the modern era of cardiovascular disease prevention aspirin ’ s antithrombotic effects have a long - established place in the prevention of cardiovascular disease ( cvd ), and its traditional use as a core therapy for secondary prevention of cvd is well recognized. however, with the advent of newer antiplatelet agents and an increasing understanding of aspirin ’ s bleeding risks, its role across the full spectrum of modern cvd prevention has become less certain. as a consequence, recent trials have begun investigating aspirin - free strategies in secondary prevention. [ chunk id : pmid : 34193948 _ 000 _ 1891357 ] [ source : vector ] low - dose aspirin for primary and secondary prevention of cardiovascular events in denmark 1998 – 2018 randomised controlled trials have shown a neutral or even unfavourable risk – benefit balance of aspirin for primary prevention of cardiovascular events.",
+      "filtered_context": "[Chunk ID: pmid:34824680_000_2091138] [Source: vector]\naspirin in the modern era of cardiovascular disease prevention aspirin ’ s antithrombotic effects have a long - established place in the prevention of cardiovascular disease ( cvd ), and its traditional use as a core therapy for secondary prevention of cvd is well recognized. however, with the advent of newer antiplatelet agents and an increasing understanding of aspirin ’ s bleeding risks, its role across the full spectrum of modern cvd prevention has become less certain. as a consequence, recent trials have begun investigating aspirin - free strategies in secondary prevention.\n\n[Chunk ID: pmid:34193948_000_1891357] [Source: vector]\nlow - dose aspirin for primary and secondary prevention of cardiovascular events in denmark 1998 – 2018 randomised controlled trials have shown a neutral or even unfavourable risk – benefit balance of aspirin for primary prevention of cardiovascular events. using danish nationwide registries, we investigated aspirin use and associated risks during the past two decades ( 1998 – 2018 ). we linked individual patient data on repeated aspirin redemptions with registered hospital icd - 10 diagnoses of atherosclerotic cardiovascular disease and bleedings. the prevalence of aspirin use among 1.",
+      "draft_answer": {
+        "draft_answer": "Recent evidence suggests that aspirin may have a neutral or unfavorable risk-benefit balance for primary prevention of cardiovascular events. This finding is based on studies in specific populations, such as those in Denmark, and should not be generalized. The evidence indicates no significant benefit and highlights bleeding risks, but it is limited to certain settings. Aspirin's role in primary prevention remains uncertain, and aspirin-free strategies are being explored.",
+        "error": ""
+      },
+      "review_feedback": {
+        "skipped": true,
+        "reason": "critical review temporarily disabled"
+      },
+      "final_json": {
+        "final_answer": "Recent evidence suggests that aspirin may have a neutral or unfavorable risk-benefit balance for primary prevention of cardiovascular events. This finding is based on studies in specific populations, such as those in Denmark, and should not be generalized. The evidence indicates no significant benefit and highlights bleeding risks, but it is limited to certain settings. Aspirin's role in primary prevention remains uncertain, and aspirin-free strategies are being explored.\n\nReferences: PMID:34824680, PMID:34193948\n\nDisclaimer: This answer is for study and reference only and should not replace professional medical advice.",
+        "mode": "draft_direct_plain_text"
+      }
+    },
+    "sources": [
+      {
+        "chunk_id": "pmid:34824680_000_2091138",
+        "source": "vector",
+        "pmid": "34824680",
+        "journal": "Methodist DeBakey Cardiovascular Journal",
+        "pub_year": 2021,
+        "title_line": "Aspirin in the Modern Era of Cardiovascular Disease Prevention"
+      },
+      {
+        "chunk_id": "pmid:34193948_000_1891357",
+        "source": "vector",
+        "pmid": "34193948",
+        "journal": "Scientific Reports",
+        "pub_year": 2021,
+        "title_line": "Low-dose aspirin for primary and secondary prevention of cardiovascular events in Denmark 1998–2018"
+      }
+    ],
+    "timestamp": "2026-04-20 16:56:55",
+    "answer_evaluation": {
+      "text_similarity": {
+        "rouge1": {
+          "precision": 0.1644,
+          "recall": 0.48,
+          "fmeasure": 0.2449
+        },
+        "backend": "token_overlap_fallback"
+      },
+      "key_information": {
+        "generated_matches": {
+          "percentage": [],
+          "dosage": [],
+          "time_range": [],
+          "safety": [
+            "risk",
+            "risks"
+          ],
+          "treatment": [],
+          "mechanism": []
+        },
+        "reference_matches": {
+          "percentage": [],
+          "dosage": [],
+          "time_range": [],
+          "safety": [
+            "risk"
+          ],
+          "treatment": [
+            "treatment"
+          ],
+          "mechanism": []
+        },
+        "recall_by_type": {
+          "percentage": {
+            "ground_truth_count": 0,
+            "predicted_count": 0,
+            "overlap_count": 0,
+            "recall": 0.0,
+            "overlap_items": []
+          },
+          "dosage": {
+            "ground_truth_count": 0,
+            "predicted_count": 0,
+            "overlap_count": 0,
+            "recall": 0.0,
+            "overlap_items": []
+          },
+          "time_range": {
+            "ground_truth_count": 0,
+            "predicted_count": 0,
+            "overlap_count": 0,
+            "recall": 0.0,
+            "overlap_items": []
+          },
+          "safety": {
+            "ground_truth_count": 1,
+            "predicted_count": 2,
+            "overlap_count": 1,
+            "recall": 1.0,
+            "overlap_items": [
+              "risk"
+            ]
+          },
+          "treatment": {
+            "ground_truth_count": 1,
+            "predicted_count": 0,
+            "overlap_count": 0,
+            "recall": 0.0,
+            "overlap_items": []
+          },
+          "mechanism": {
+            "ground_truth_count": 0,
+            "predicted_count": 0,
+            "overlap_count": 0,
+            "recall": 0.0,
+            "overlap_items": []
+          }
+        },
+        "overall_recall": 0.5
+      },
+      "hallucination": {
+        "signal_details": {
+          "research_indicates_without_citation": {
+            "count": 0,
+            "matches": []
+          },
+          "proven_without_qualification": {
+            "count": 0,
+            "matches": []
+          },
+          "hundred_percent": {
+            "count": 0,
+            "matches": []
+          },
+          "absolute_safety_or_effectiveness": {
+            "count": 0,
+            "matches": []
+          }
+        },
+        "total_risk_signals": 0,
+        "hallucination_risk_score": 0.0,
+        "hallucination_safety_score": 1.0
+      },
+      "readability": {
+        "sentence_count": 5,
+        "word_count": 90,
+        "average_sentence_length": 18.0,
+        "average_word_length": 5.88
+      }
+    }
+  },
+  {
+    "query": "GLP-1 receptor agonists and cardiovascular outcomes after 2020",
+    "answer": "GLP-1 receptor agonists (GLP-1RAs) have demonstrated cardiovascular benefits in clinical trials, primarily for reducing major adverse cardiovascular events (MACE) in patients with type 2 diabetes. These effects are supported by direct evidence from cardiovascular outcome trials (CVOTs). However, the benefits may vary across subgroups, and real-world data confirm these findings in diverse populations. The evidence is specific to cardiovascular outcomes in individuals with type 2 diabetes, and findings for other conditions like stroke or heart failure should be interpreted with caution due to indirect or limited data.\n\nReferences: sha1:8703737e285603a3_000_4514187, PMID:41107882\n\nDisclaimer: This answer is for study and reference only and should not replace professional medical advice.",
+    "context_metadata": {
+      "total_chunks_retrieved": 3,
+      "converted_chunks": 3,
+      "unique_chunks_after_dedup": 3,
+      "deduplicated_away": 0,
+      "chunks_selected": 2,
+      "estimated_tokens": 286,
+      "chunk_sources": {
+        "vector": 2
+      },
+      "max_context_tokens": 420,
+      "effective_context_budget": 300,
+      "generation_prompt_safety_margin": 120,
+      "generation_chunk_token_limit": 120,
+      "min_context_tokens": 120,
+      "selected_chunk_ids": [
+        "sha1:8703737e285603a3_000_4514187",
+        "pmid:41107882_000_4520171"
+      ],
+      "selected_titles_preview": [
+        "GLP-1 Agonists in Cardiovascular Diseases: Mechanisms, Clinical Evidence, and Emerging Therapies",
+        "Stratifying cardiovascular benefits from GLP-1RA: a multisource analysis of patient-level CVOT and real-world data using AI-driven methods"
+      ],
+      "original_selected_token_sum": 1230,
+      "generation_selected_token_sum": 231,
+      "truncated_chunk_count_for_generation": 3,
+      "truncated_chunk_ids_for_generation": [
+        "sha1:8703737e285603a3_000_4514187",
+        "pmid:41107882_000_4520171",
+        "sha1:91c03cc8eda4b65e_000_3931959"
+      ],
+      "chunks_selected_after_filter": 2,
+      "estimated_tokens_after_filter": 286,
+      "chunk_sources_after_filter": {
+        "vector": 2
+      },
+      "selected_chunk_ids_after_filter": [
+        "sha1:8703737e285603a3_000_4514187",
+        "pmid:41107882_000_4520171"
+      ],
+      "filter_details": {
+        "filter_mode": "evidence_summary_text_only_no_chunk_filtering",
+        "kept_chunk_ids": [
+          "sha1:8703737e285603a3_000_4514187",
+          "pmid:41107882_000_4520171"
+        ]
+      }
+    },
+    "generation_metrics": {
+      "total_time_seconds": 199.1434841156006,
+      "stage_times": {
+        "context_assembly": 0.01643657684326172,
+        "evidence_evaluation": 64.27280449867249,
+        "draft_generation": 134.8391468524933,
+        "critical_review": 0.0,
+        "final_assembly": 1.9073486328125e-06,
+        "post_processing": 2.5272369384765625e-05
+      },
+      "token_counts": {
+        "context_tokens_initial": 286,
+        "evidence_context_tokens": 220,
+        "context_tokens_filtered": 286,
+        "draft_answer_tokens": 114,
+        "final_answer_tokens": 165
+      },
+      "stage_success": {
+        "context_assembly": true,
+        "evidence_evaluation": true,
+        "draft_generation": true,
+        "critical_review": false,
+        "final_assembly": true,
+        "post_processing": true
+      },
+      "answer_length_chars": 794,
+      "answer_length_words": 106,
+      "review_passed": false,
+      "final_assembly_mode": "draft_direct_plain_text"
+    },
+    "intermediate_results": {
+      "evidence_evaluation": {
+        "text_summary": "GLP-1 receptor agonists have been shown to reduce cardiovascular risk in various conditions beyond diabetes through clinical evidence.",
+        "error": "",
+        "mode": "plain_text_summary"
+      },
+      "evidence_summary": "GLP-1 receptor agonists have been shown to reduce cardiovascular risk in various conditions beyond diabetes through clinical evidence.",
+      "evidence_context": "[ chunk id : sha1 : 8703737e285603a3 _ 000 _ 4514187 ] [ source : vector ] glp - 1 agonists in cardiovascular diseases : mechanisms, clinical evidence, and emerging therapies glucagon - like peptide - 1 ( glp - 1 ) receptor agonists now serve as therapeutic agents for cardiovascular diseases ( cvds ) beyond their original use for treating type 2 diabetes mellitus ( t2dm ). this review combines molecular mechanisms with clinical evidence to demonstrate how glp - 1 agonists help lower cardiovascular risk for conditions, including atherosclerosis, heart failure, stroke, and vascular dementia. [ chunk id : pmid : 41107882 _ 000 _ 4520171 ] [ source : vector ] stratifying cardiovascular benefits from glp - 1ra : a multisource analysis of patient - level cvot and real - world data using ai - driven methods backgroundit remains unclear whether certain individuals with type 2 diabetes ( t2d ) derive greater cardiovascular benefit",
+      "filtered_context": "[Chunk ID: sha1:8703737e285603a3_000_4514187] [Source: vector]\nglp - 1 agonists in cardiovascular diseases : mechanisms, clinical evidence, and emerging therapies glucagon - like peptide - 1 ( glp - 1 ) receptor agonists now serve as therapeutic agents for cardiovascular diseases ( cvds ) beyond their original use for treating type 2 diabetes mellitus ( t2dm ). this review combines molecular mechanisms with clinical evidence to demonstrate how glp - 1 agonists help lower cardiovascular risk for conditions, including atherosclerosis, heart failure, stroke, and vascular dementia.\n\n[Chunk ID: pmid:41107882_000_4520171] [Source: vector]\nstratifying cardiovascular benefits from glp - 1ra : a multisource analysis of patient - level cvot and real - world data using ai - driven methods backgroundit remains unclear whether certain individuals with type 2 diabetes ( t2d ) derive greater cardiovascular benefit from glp - 1 receptor agonists ( glp - 1ras ). here, we integrate individual - level data from cardiovascular outcome trials ( cvots ) and electronic health records ( ehrs ), applying machine learning methods to confirm the cardiovascular benefits of glp - 1ras in real - world populations and to identify subgroup",
+      "draft_answer": {
+        "draft_answer": "GLP-1 receptor agonists (GLP-1RAs) have demonstrated cardiovascular benefits in clinical trials, primarily for reducing major adverse cardiovascular events (MACE) in patients with type 2 diabetes. These effects are supported by direct evidence from cardiovascular outcome trials (CVOTs). However, the benefits may vary across subgroups, and real-world data confirm these findings in diverse populations. The evidence is specific to cardiovascular outcomes in individuals with type 2 diabetes, and findings for other conditions like stroke or heart failure should be interpreted with caution due to indirect or limited data.",
+        "error": ""
+      },
+      "review_feedback": {
+        "skipped": true,
+        "reason": "critical review temporarily disabled"
+      },
+      "final_json": {
+        "final_answer": "GLP-1 receptor agonists (GLP-1RAs) have demonstrated cardiovascular benefits in clinical trials, primarily for reducing major adverse cardiovascular events (MACE) in patients with type 2 diabetes. These effects are supported by direct evidence from cardiovascular outcome trials (CVOTs). However, the benefits may vary across subgroups, and real-world data confirm these findings in diverse populations. The evidence is specific to cardiovascular outcomes in individuals with type 2 diabetes, and findings for other conditions like stroke or heart failure should be interpreted with caution due to indirect or limited data.\n\nReferences: sha1:8703737e285603a3_000_4514187, PMID:41107882\n\nDisclaimer: This answer is for study and reference only and should not replace professional medical advice.",
+        "mode": "draft_direct_plain_text"
+      }
+    },
+    "sources": [
+      {
+        "chunk_id": "sha1:8703737e285603a3_000_4514187",
+        "source": "vector",
+        "pmid": null,
+        "journal": "Journal of Clinical Medicine",
+        "pub_year": 2025,
+        "title_line": "GLP-1 Agonists in Cardiovascular Diseases: Mechanisms, Clinical Evidence, and Emerging Therapies"
+      },
+      {
+        "chunk_id": "pmid:41107882_000_4520171",
+        "source": "vector",
+        "pmid": "41107882",
+        "journal": "Cardiovascular Diabetology",
+        "pub_year": 2025,
+        "title_line": "Stratifying cardiovascular benefits from GLP-1RA: a multisource analysis of patient-level CVOT and real-world data using AI-driven methods"
+      }
+    ],
+    "timestamp": "2026-04-20 17:02:00",
+    "answer_evaluation": {
+      "text_similarity": {
+        "rouge1": {
+          "precision": 0.1279,
+          "recall": 0.4583,
+          "fmeasure": 0.2
+        },
+        "backend": "token_overlap_fallback"
+      },
+      "key_information": {
+        "generated_matches": {
+          "percentage": [],
+          "dosage": [],
+          "time_range": [],
+          "safety": [],
+          "treatment": [],
+          "mechanism": []
+        },
+        "reference_matches": {
+          "percentage": [],
+          "dosage": [],
+          "time_range": [],
+          "safety": [],
+          "treatment": [
+            "treatment"
+          ],
+          "mechanism": []
+        },
+        "recall_by_type": {
+          "percentage": {
+            "ground_truth_count": 0,
+            "predicted_count": 0,
+            "overlap_count": 0,
+            "recall": 0.0,
+            "overlap_items": []
+          },
+          "dosage": {
+            "ground_truth_count": 0,
+            "predicted_count": 0,
+            "overlap_count": 0,
+            "recall": 0.0,
+            "overlap_items": []
+          },
+          "time_range": {
+            "ground_truth_count": 0,
+            "predicted_count": 0,
+            "overlap_count": 0,
+            "recall": 0.0,
+            "overlap_items": []
+          },
+          "safety": {
+            "ground_truth_count": 0,
+            "predicted_count": 0,
+            "overlap_count": 0,
+            "recall": 0.0,
+            "overlap_items": []
+          },
+          "treatment": {
+            "ground_truth_count": 1,
+            "predicted_count": 0,
+            "overlap_count": 0,
+            "recall": 0.0,
+            "overlap_items": []
+          },
+          "mechanism": {
+            "ground_truth_count": 0,
+            "predicted_count": 0,
+            "overlap_count": 0,
+            "recall": 0.0,
+            "overlap_items": []
+          }
+        },
+        "overall_recall": 0.0
+      },
+      "hallucination": {
+        "signal_details": {
+          "research_indicates_without_citation": {
+            "count": 0,
+            "matches": []
+          },
+          "proven_without_qualification": {
+            "count": 0,
+            "matches": []
+          },
+          "hundred_percent": {
+            "count": 0,
+            "matches": []
+          },
+          "absolute_safety_or_effectiveness": {
+            "count": 0,
+            "matches": []
+          }
+        },
+        "total_risk_signals": 0,
+        "hallucination_risk_score": 0.0,
+        "hallucination_safety_score": 1.0
+      },
+      "readability": {
+        "sentence_count": 5,
+        "word_count": 111,
+        "average_sentence_length": 22.2,
+        "average_word_length": 6.04
+      }
+    }
+  }
+]

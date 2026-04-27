@@ -1,0 +1,32 @@
+{
+  "self_similarity_test": [
+    {
+      "query": "Inflammatory cell-mediated tumour progression and minisatellite mutation correlate with the decrease of antioxidative enzymes in murine fibrosarcoma cells\n\nWe isolated six clones of weakly tumorigenic",
+      "top_result": "Inflammatory cell-mediated tumour progression and minisatellite mutation correlate with the decrease of antioxidative enzymes in murine fibrosarcoma cells\n\nWe isolated six clones of weakly tumorigenic"
+    },
+    {
+      "query": "and GP\u03c7 (P<0.05) than in the subclones with high levels of both enzymes. The MSM of the subclones with low levels of both enzymes was inhibited in the presence of mannitol, a hydroxyl radical scavenge",
+      "top_result": "and GP\u03c7 (P<0.05) than in the subclones with high levels of both enzymes. The MSM of the subclones with low levels of both enzymes was inhibited in the presence of mannitol, a hydroxyl radical scavenge"
+    },
+    {
+      "query": "Differential regulation of specific genes in MCF-7 and the ICI 182780-resistant cell line MCF-7/182R-6\n\nTo elucidate the mechanisms involved in anti-oestrogen resistance, two human breast cancer cell ",
+      "top_result": "Differential regulation of specific genes in MCF-7 and the ICI 182780-resistant cell line MCF-7/182R-6\n\nTo elucidate the mechanisms involved in anti-oestrogen resistance, two human breast cancer cell "
+    },
+    {
+      "query": "Non-steroidal anti-inflammatory drug-induced apoptosis in gastric cancer cells is blocked by protein kinase C activation through inhibition of c-myc\n\nApoptosis plays a major role in gastrointestinal e",
+      "top_result": "Non-steroidal anti-inflammatory drug-induced apoptosis in gastric cancer cells is blocked by protein kinase C activation through inhibition of c-myc\n\nApoptosis plays a major role in gastrointestinal e"
+    },
+    {
+      "query": "Role of thrombin receptor in breast cancer invasiveness\n\nInvasion, the ability of an epithelial cancer cell to detach from and move through a basement membrane, is a central process in tumour metastas",
+      "top_result": "Role of thrombin receptor in breast cancer invasiveness\n\nInvasion, the ability of an epithelial cancer cell to detach from and move through a basement membrane, is a central process in tumour metastas"
+    }
+  ],
+  "empty_query_test": {
+    "status": "success",
+    "result_count": 5
+  },
+  "long_query_test": {
+    "status": "success",
+    "result_count": 5
+  }
+}
